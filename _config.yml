@@ -1,0 +1,42 @@
+# GitHub Pages / Jekyll configuration.
+# Makes the docs SEO-ready (proper <title>, meta description, canonical,
+# Open Graph, Twitter cards, and a sitemap) if GitHub Pages is enabled for
+# this repository. Harmless if Pages is not enabled — the Markdown still
+# renders on GitHub as normal.
+
+title: AnimeType Documentation
+description: >-
+  Official public documentation and knowledge base for AnimeType
+  (animetype.space) — the free social network and community for anime,
+  manga, and manhwa fans. Learn about fan theories, the Aura identity
+  system, anime tracking, safety, and more.
+lang: en
+
+# Update `url`/`baseurl` if you enable Pages on a custom domain
+# (e.g. url: "https://docs.animetype.space" and baseurl: "").
+url: "https://d-xan.github.io"
+baseurl: "/AnimeType.space-Docs"
+
+author: Dhruba Singha Roy
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+twitter:
+  username: AnimeTypeSpace
+  card: summary_large_image
+
+social:
+  name: AnimeType
+  links:
+    - https://www.animetype.space
+    - https://twitter.com/AnimeTypeSpace
+    - https://www.instagram.com/animetype.space
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://www.animetype.space/og/default.jpg

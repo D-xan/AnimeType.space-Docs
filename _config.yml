@@ -12,10 +12,9 @@ description: >-
   system, anime tracking, safety, and more.
 lang: en
 
-# Update `url`/`baseurl` if you enable Pages on a custom domain
-# (e.g. url: "https://docs.animetype.space" and baseurl: "").
-url: "https://d-xan.github.io"
-baseurl: "/AnimeType.space-Docs"
+# Served on the custom domain docs.animetype.space (see CNAME file).
+url: "https://docs.animetype.space"
+baseurl: ""
 
 author: Dhruba Singha Roy
 theme: jekyll-theme-cayman

@@ -1,37 +1,18 @@
+---
+layout: default
+title: What is AnimeType?
+parent: Overview
+nav_order: 1
+---
+
 # What is AnimeType?
 
-**AnimeType is a free social networking platform made specifically for anime, manga, and manhwa fans.** It is available on the web at [animetype.space](https://www.animetype.space) and as an Android app.
+AnimeType is a dedicated social platform built from the ground up for anime and manga enthusiasts. We go beyond simple text posts by introducing a unique ecosystem designed for deep discussions, theory crafting, and identity building.
 
-Where mainstream social networks treat anime as one niche among many, AnimeType is built entirely around anime fandom. Its tools are designed to help fans do more than passively scroll — they can start discussions, publish theories, track what they watch, and build a recognized identity within the community.
+## Core Features
+- **Identity & Aura System**: Your interactions shape your profile. Earn points through engaging content and level up your Rank and Aura colors.
+- **Fan Theory Engine**: A specialized post format that lets you present structured arguments with an Evidence Timeline and a Final Conclusion. Community members vote on your theories.
+- **Media Journey Dashboard**: Track your watched anime and read manga right from your profile, integrated directly with your social feed.
+- **Deep Collaboration**: Tag characters, invite co-authors (collaborators) on your posts, and even post anonymously when you have a controversial take.
 
-## Who is AnimeType for?
-
-AnimeType is for anyone aged **18 or older** who loves anime, manga, or manhwa — whether you are a casual viewer, a lore expert, a reviewer, an artist, or a community builder. The platform is a strictly **18+ community** to keep moderation focused and discussions mature.
-
-## What can you do on AnimeType?
-
-- **Share and discover** posts, images, and polls about your favorite series.
-- **Write fan theories** and let the community vote on your predictions.
-- **Track your anime and manga** in a personal library called your *Anime Journey*.
-- **Build reputation** through the *Aura* identity score, ranks, and achievement badges.
-- **Compete** on a global leaderboard of top contributors.
-- **Connect** through direct and group chats, including voice and video calls.
-- **Grow as a creator** with a personal analytics dashboard.
-
-## How is AnimeType different?
-
-1. **Anime-first design.** Every feature — from tagging series in a post to tracking episodes — is purpose-built for anime culture.
-2. **Reputation that rewards quality.** The Aura system recognizes thoughtful contributions rather than follower counts alone.
-3. **A home for theories.** Fan theories are a first-class content type with community voting, not an afterthought.
-4. **Free and independent.** AnimeType is free to use and is an independent platform, not affiliated with any studio or publisher.
-
-## Is AnimeType free?
-
-Yes. AnimeType is completely free to use. There is currently **no subscription, premium tier, or in-app purchase**.
-
-## Where can I get AnimeType?
-
-- **Web:** Visit [www.animetype.space](https://www.animetype.space) in any modern browser. It works as a progressive web app you can add to your home screen.
-- **Android:** Install the AnimeType Android app.
-
-Continue to the full **[Features guide »](features.md)**
+AnimeType brings the anime community together under one roof with the tools they need to express their passion.

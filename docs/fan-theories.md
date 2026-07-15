@@ -1,29 +1,23 @@
+---
+layout: default
+title: Fan Theories Overview
+parent: Overview
+nav_order: 3
+---
+
 # Fan Theories
 
-**Fan theories are a signature content type on [AnimeType](https://www.animetype.space).** They let you publish predictions, interpretations, and deep-dive analysis about anime and manga, and let the community vote on how convincing they are.
+Fan Theories are AnimeType's flagship content format. Instead of dropping a massive wall of text, Fan Theories allow you to structure your thoughts into a compelling visual presentation.
 
-## What is a fan theory on AnimeType?
+## Structure of a Theory
+- **Executive Summary**: A brief abstract of your theory.
+- **Evidence Timeline**: A sequential list of points supporting your theory. Each point can have a Title, Description, and a **Key Panel Image** (a screenshot or manga panel).
+- **Conclusion**: Your final wrap-up statement.
 
-A fan theory is a post dedicated to your ideas about a series — where the plot is heading, a hidden connection between characters, an interpretation of the lore, or a bold prediction about an ongoing show. Unlike a regular post, theories are built for debate and community voting.
+## The Voting System
+Unlike standard posts which just have "Likes", Fan Theories use a tri-state community voting system:
+1. **Agree**: You believe the theory is correct.
+2. **Disagree**: You believe the theory is flawed.
+3. **Interesting**: You aren't sure if it's true, but it's a great concept.
 
-## How fan theories work
-
-1. **Create a theory** — write your prediction or analysis and link it to the relevant anime or manga.
-2. **The community votes** — other fans vote to show whether they find your theory convincing.
-3. **Discussion** — readers comment and debate, adding evidence for or against.
-4. **Recognition** — popular, well-argued theories rise in visibility and boost your [Aura](aura-and-identity.md).
-
-## Why write fan theories?
-
-- **Build reputation** — theories that resonate are one of the most rewarding ways to grow your Aura and identity rank.
-- **Spark discussion** — great theories start some of the best conversations in the community.
-- **Get discovered** — trending theories reach fans across the platform, not just your followers.
-
-## Tips for a great fan theory
-
-- **Be specific** — tie your theory to concrete moments, panels, or episodes.
-- **Bring evidence** — reference details that support your idea.
-- **Respect spoilers** — be considerate of fans who aren't caught up.
-- **Stay constructive** — debate ideas, not people. See our [Community Guidelines](https://www.animetype.space/legal/guidelines).
-
-Publish your first theory at **[animetype.space](https://www.animetype.space)**.
+The community's consensus generates an **Agreement Percentage** and ranks the theory globally.

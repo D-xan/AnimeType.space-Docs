@@ -1,47 +1,42 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/AnimeType-Official_Documentation-a855f7?style=for-the-badge&logo=appveyor" alt="AnimeType Documentation" />
-  <h1>📚 AnimeType Documentation Hub</h1>
-  <p><strong>The definitive guide to the architecture, features, and algorithms powering AnimeType space.</strong></p>
+  <img src="https://img.shields.io/badge/AnimeType-Help_Center-a855f7?style=for-the-badge&logo=appveyor" alt="AnimeType Help Center" />
+  <h1>📚 AnimeType Help Center & User Manual</h1>
+  <p><strong>Your complete guide to navigating, interacting, and thriving in the AnimeType community.</strong></p>
 </div>
 
 ---
 
-## 🌟 Introduction to AnimeType
+## 🌟 Welcome to AnimeType
 
-Welcome to the official documentation for **AnimeType**, a next-generation social network and community platform exclusively designed for anime, manga, and light novel enthusiasts. Unlike generic social media platforms, AnimeType is custom-built from the ground up to cater specifically to the deep, lore-heavy, and highly interactive nature of the anime community. 
+Welcome to **AnimeType**, the premier social networking destination exclusively designed for anime, manga, and light novel enthusiasts across the globe. We built AnimeType because we believe that the anime community deserves a dedicated space—a platform free from the noise of generic social media, where fans can dive deep into lore, share their artistic creations, and connect with fellow enthusiasts in real-time.
 
-Our mission is to foster a space where passionate fans can share their artwork, debate complex plot theories, connect with like-minded individuals in real-time, and build a lasting reputation based on the quality of their contributions. To achieve this, AnimeType relies on a highly sophisticated, hybrid technology stack that prioritizes performance, real-time interactivity, and offline accessibility.
+Whether you are here to review the latest seasonal anime, debate complex manga theories, or simply chat with friends who share your passion, this Help Center is designed to provide you with everything you need to know to get the most out of your AnimeType experience.
 
-## 🏗️ The Technology Stack
+## 📖 How to Use This Help Center
 
-AnimeType is built using a modern, scalable, and highly responsive architecture designed to handle thousands of concurrent connections while delivering a seamless user experience across both web and mobile platforms.
+We have structured this documentation to be as user-friendly and comprehensive as possible. Below, you will find links to detailed guides covering every aspect of the platform. If you are new here, we highly recommend starting with the Getting Started guide!
 
-- **Frontend Architecture (Vite & TypeScript)**: The web client is built using Vite, offering lightning-fast Hot Module Replacement (HMR) during development and highly optimized Rollup-based bundling for production. The entire codebase is strictly typed with TypeScript to ensure maintainability and reduce runtime errors.
-- **Mobile Integration (Capacitor)**: AnimeType is a true Progressive Web App (PWA) that compiles into a native Android application using Ionic Capacitor. This allows the platform to access native device features—such as the filesystem for image caching and the native notification tray—while maintaining a single, unified codebase.
-- **Hybrid Backend (Supabase & Firebase)**: We utilize a dual-backend strategy to get the best of both relational and NoSQL worlds. Supabase (powered by PostgreSQL) handles our core relational data, user authentication identities, and complex search indexing. Meanwhile, Firebase (Firestore and Realtime Database) is leveraged for its unbeatable low-latency WebSocket connections, which power our real-time chat and push notification delivery systems.
+### 🚀 Core User Guides
+- **[Getting Started on AnimeType](./guides/getting-started.md)**: A complete walkthrough for new users, covering profile setup, navigating the home feed, and making your first connections.
+- **[Creating Content: Posts & Theories](./guides/creating-content.md)**: Learn the differences between the Anime, Manga, and General Post categories, and discover how to craft compelling Fan Theories.
+- **[Theories & Voting Mechanics](./guides/theories-and-voting.md)**: Understand how our unique tri-state voting system works (Agree, Disagree, Interesting) and how to engage with community hypotheses.
+- **[Global Ranking & Points System](./guides/ranking-and-points.md)**: Discover how you can earn points, climb the global leaderboards, and unlock exclusive community badges through your contributions.
+- **[Profile & Badges](./guides/profile-and-badges.md)**: Learn how to track your personal engagement analytics and showcase your earned badges on your digital profile.
 
-## 📖 How to Use This Documentation
+### 🔒 Privacy & Communication
+- **[Privacy Settings & Safety](./guides/privacy-settings.md)**: Your safety is our priority. Learn how to control who can view your profile, comment on your posts, and how to block or mute unwanted interactions.
+- **[Chat & Messaging](./guides/chat-and-messaging.md)**: A guide to our real-time direct messaging system, managing message requests, and configuring your inbox settings.
+- **[Notifications Management](./guides/notifications.md)**: Take control of your push notifications and in-app alerts so you never miss an important update, without being overwhelmed.
 
-This documentation hub is structured to provide both high-level overviews for product managers and deep, technical deep-dives for software engineers. Whether you are looking to set up the project locally, understand the mathematics behind our algorithmic engagement systems, or learn how we handle native Android notification deduplication, you will find it here.
+### ❓ Support & Troubleshooting
+- **[Frequently Asked Questions (FAQ)](./guides/frequently-asked-questions.md)**: Answers to the most common questions from our community, including account management, username changes, and bug reporting.
 
-### 🚀 Quick Start Guides
-- **[Local Installation Guide](./getting-started/installation.md)**: A comprehensive walkthrough for cloning the repository, installing dependencies, configuring environment variables, and starting the local Vite development server.
-- **[Deployment Strategy](./getting-started/deployment.md)**: Detailed instructions on our CI/CD pipeline, Vercel edge deployment optimizations, and the Capacitor build process for compiling Android APKs and App Bundles (AAB).
+## 🤝 Our Community Philosophy
 
-### ✨ Core Features & Systems
-- **[Theory Crafting & Voting](./features/theories.md)**: Dive into the mechanics of our unique tri-state voting system (Agree, Disagree, Interesting) and the mathematics behind the Agreement Percentage Ring.
-- **[Algorithmic Engagement System](./features/engagement-system.md)**: Understand how AnimeType solves the "cold start" problem for new content creators using dynamically scaled, algorithmically generated engagement metrics that mirror real user behavior.
-- **[Real-time Chat & Messaging](./features/chat-and-messaging.md)**: Explore the architecture of our millisecond-latency chat system, including offline persistence, optimistic UI updates, and our highly efficient batch-processing strategy for read receipts.
-- **[Push Notifications](./features/push-notifications.md)**: Learn how we integrate Firebase Cloud Messaging (FCM) with Capacitor, utilize Android's `MessagingStyle` for premium native UI, and solve the infamous FCM duplicate payload issue using memory-based HashSets.
-- **[User Profiles & Analytics](./features/user-profiles-and-analytics.md)**: Discover how we provide users with deep insights into their content performance using single-pass client-side computations and stale-while-revalidate document caching.
-- **[Search & Discovery](./features/search-and-discovery.md)**: An overview of our dual-layered search infrastructure, combining client-side fuzzy matching via Fuse.js with powerful PostgreSQL Full Text Search (FTS) for scalable discovery.
+At AnimeType, we are fiercely committed to maintaining a toxic-free, welcoming, and inclusive environment. The anime fandom is incredibly diverse, spanning countless genres, demographics, and cultures. 
 
-### 🏗️ Architectural Deep Dives
-- **[Database Architecture](./architecture/supabase-firebase.md)**: A detailed breakdown of why we chose a hybrid Supabase + Firebase approach, the specific use cases for each database, and how we maintain state synchronization across both platforms via webhooks and edge functions.
-- **[Performance & Caching](./architecture/performance-optimization.md)**: Our masterclass on frontend optimization, detailing our use of dynamic imports for code splitting, Blurhash for skeleton media loading, and Service Worker precaching for offline PWA support.
+We encourage healthy debate—especially when it comes to fan theories and character analyses—but we mandate that all discussions remain respectful. Gatekeeping, harassment, and spoiler-trolling have no place on AnimeType. We kindly ask all users to utilize the spoiler-tag features when discussing recent manga chapters or anime episodes to ensure that everyone can enjoy the story at their own pace.
 
-## 🤝 Community & Contribution
+If you ever encounter behavior that violates our community guidelines, please utilize the in-app reporting tools. Our moderation team is dedicated to keeping AnimeType a safe haven for all fans.
 
-AnimeType thrives on community feedback and open collaboration. We encourage developers, designers, and anime fans to contribute to the platform's ongoing evolution. Please review our issue tracker for planned features, and ensure that any pull requests strictly adhere to our TypeScript guidelines and architectural patterns outlined in this documentation.
-
-Thank you for being a part of the AnimeType journey. Together, we are building the ultimate digital home for the anime community.\n
+Thank you for joining us on this journey. We are thrilled to have you as part of the AnimeType family, and we can't wait to see what you create and share with the community!\n

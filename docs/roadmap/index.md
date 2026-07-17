@@ -13,6 +13,6 @@ AnimeType is constantly evolving. Here is a look at what we are working on.
 - **Advanced Search Filters:** Find anime and manga by highly specific criteria.
 
 ## Released
-- **Supabase Migration (Phase 1-4):** Massive performance upgrades and reliability improvements.
+- **Performance & Reliability Overhaul:** Faster feeds, quicker load times, and a more stable experience across the app.
 - **New Badges System:** 27 redesigned medallions with tier-escalating frames.
 - **Next-Milestone Cards:** Track your progress to the next Creator Title.
